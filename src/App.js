@@ -4,6 +4,7 @@ import Recipe from "./Component/Recipe";
 import MyForm from "./Component/MyForm";
 import Register from "./Component/Register";
 import Login from "./Component/Login";
+import ToDoList from "./Component/ToDoList";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/input" element={<MyForm/>}/>
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/todolist" element={<ToDoList/>}/>
 
       </Routes>
     </BrowserRouter>
